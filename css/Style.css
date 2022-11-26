@@ -1,0 +1,33 @@
+body {    
+    display:grid;
+    place-items: center;
+    background-image: url("/imagenFondo/fondo_pokemon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed ;
+
+}
+#contenedor-pokemones {    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    place-items: center;
+    width: 100%;
+    max-width: 1300px;
+    place-items: center;
+    padding: 2.5rem;
+    text-align: center;
+    font-size: 150% ;
+}
+h1{    
+    font-size: 3rem; 
+    Color:white;       
+}
+img{
+    width: 135px;
+    height: 135px;
+    place-items: center;    
+}
+.tarjeta h2{
+    Color:white;
+}
